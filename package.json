@@ -1,0 +1,16 @@
+{
+  "name": "electric-rate-engine-api",
+  "version": "1.0.0",
+  "description": "A node api to wrap the existing electric rate engine",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bellawatt",
+  "license": "ISC",
+  "dependencies": {
+    "@bellawatt/electric-rate-engine": "^1.4.1",
+    "express": "^4.17.1"
+  }
+}
